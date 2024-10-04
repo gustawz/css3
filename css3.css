@@ -1,0 +1,99 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+header{
+    background-image:url(Img/textura-branca.jpg);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    box-sizing: border-box;
+    border-radius: 10px; /*preenchimento*/
+    z-index: 5;
+}
+nav{
+    background-image: url(Img/textura-branca.jpg);
+    width: 15%;
+    height: 100%;
+    top: 80px;
+    right: 0;
+    position: fixed;
+    box-sizing: border-box; 
+    z-index: 5; /*disposição*/
+}
+main{
+    background-image: url(Img/textura-cinza.jpg);
+    width: 85%;
+    height: min-width 100% ;
+     height: 100%;
+    border-radius: 20px;
+    top: 80px;
+    position: absolute;
+    border-top: 2px dotted rgb(255,250,250);
+    border-right: 2px dotted rgb(255,250,250);
+    box-sizing: border-box;
+    z-index: 1;
+}
+p{
+    color: rgb(255,250,250);
+    font-style: italic;
+    font: bold;
+    font-size: 16pt;
+    text-align: center;
+    margin: 0;
+}
+span{
+    color: rgb(255,165,0);
+    text-align: center;
+    padding-top: 100%;
+}
+table{
+    margin: auto;
+}
+th{
+    text-align: left;
+    font-size: 14pt;
+    color: rgb(105,105,105);
+}
+a{
+    color: inherit; 
+    text-decoration: none;
+}
+.destaque{
+    font-size: 36pt;
+}
+.td_itens{
+    font-size: 12pt;
+    color: rgb(255,250,250);
+    border: 2px double rgb(255,250,250);
+    text-align: center;
+}
+.th_itens{
+    color: rgb(255,250,250);
+    border: 2px double rgb(255,250,250);
+    text-align: center;
+}
+.caption_itens{
+    color: rgb(255,250,250);
+    border: 2px double rgb(255,250,250);
+    text-align: center;
+}
+caption{
+    color: rgb(30,144,255);
+    font-size: bold;
+}
+.font_ref{
+    text-align: right;
+    font-size: 12pt;
+    color: rgb(255, 255, 0);
+}
+.td_links :hover{
+    background-color: rgb(105,105,105);
+    opacity: 0.75;
+    color: rgb(255,250,250);
+}
+p{
+    text-align: center;
+}
